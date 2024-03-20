@@ -1,5 +1,3 @@
-# from bs4 import BeautifulSoup
-# import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from client import CLIENT_ID,CLIENT_SECRET
