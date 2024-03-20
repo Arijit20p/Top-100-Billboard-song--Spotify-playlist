@@ -17,7 +17,7 @@ song_names = scrapping(date)
 #Spotify Authentication
 auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
-        redirect_uri="http://example.com",
+        redirect_uri="http://localhost:4304/auth/spotify/callback",
         client_id=CLIENT_ID,
         client_secret=CLIENT_SECRET,
         show_dialog=True,
